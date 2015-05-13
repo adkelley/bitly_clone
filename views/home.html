@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bitly_Clone</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h3>Type in a URL to Shorten</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <form action="/urls" method="POST">
+          <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">URL:</span>
+            <input type="text" name="url" class="form-control" placeholder="http://pathToURL">
+          </div>
+          <div class="row">
+            <div class="col-md-2">
+              <button class="btn btn-primary btn-md">SHORTEN</button>
+            </div>
+          </div>
+      </div>
+      </form>
+    </div>
+  </div>
+</body>
+<!--
+    <div class="row">
+      <form action="/urls" method="POST">  
+        <input type="text" name="url" placeholder="Type in a URL">  
+        <button>SEND REQUEST</button> 
+      </form>
+    </div>
+-->
+</html>
